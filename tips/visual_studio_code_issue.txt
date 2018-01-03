@@ -3,7 +3,8 @@ VS Code not working on Ubuntu when connected using XRDP
 
 Solution:
 There are two files I changed which I don't know which is the correct one:
-libxcb.so.1 and libxcb.so.1.1.0
+ libxcb.so.1
+ libxcb.so.1.1.0
 
 Here are the steps for the workaround:
 
