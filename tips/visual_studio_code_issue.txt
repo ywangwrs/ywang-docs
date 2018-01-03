@@ -1,0 +1,19 @@
+Issue:
+VS Code not working on Ubuntu when connected using XRDP
+
+Solution:
+There are two files I changed which I don't know which is the correct one:
+libxcb.so.1 and libxcb.so.1.1.0
+
+Here are the steps for the workaround:
+
+1. Using (sudo su) nautilus, Search and found files on folder "/usr/lib/x86_64-linux-gnu"
+2. Backup both files to a backup folder.
+3. Then, execute the following command (sudo su):
+
+ sudo sed -i 's/BIG-REQUESTS/_IG-REQUESTS/' /usr/lib/x86_64-linux-gnu/libxcb.so.1
+ sudo sed -i 's/BIG-REQUESTS/_IG-REQUESTS/' /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+
+1. Copy both files to "/usr/share/code"
+2. In Windows, open Remote Desktop connection, assign Linux IP-Address.
+3. In Linux Remote session, click on the Applications menu, go to Development, then Visual Studio Code and the application open.
