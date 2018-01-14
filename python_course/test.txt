@@ -1,0 +1,12 @@
+total 80
+drwxrwxr-x 3 ywang ywang  4096 Jan 14 13:50 .
+drwxr-xr-x 3 ywang ywang  4096 Jan 12 15:04 ..
+-rw-r--r-- 1 root  root   4871 Jan 12 17:12 01.Numbers.ipynb
+-rw-r--r-- 1 root  root  12091 Jan 12 17:49 02.Strings.ipynb
+-rw-r--r-- 1 root  root   5997 Jan 12 18:02 03.Print Formatting.ipynb
+-rw-r--r-- 1 root  root  12566 Jan 13 17:48 04.Lists.ipynb
+-rw-r--r-- 1 root  root   9690 Jan 13 19:15 05.Dictionaries.ipynb
+-rw-r--r-- 1 root  root   6127 Jan 14 13:44 06.Tuples.ipynb
+-rw-r--r-- 1 root  root    888 Jan 14 13:48 07.Files.ipynb
+drwxr-xr-x 2 root  root   4096 Jan 14 13:46 .ipynb_checkpoints
+-rw-rw-r-- 1 ywang ywang     0 Jan 14 13:50 test.txt
