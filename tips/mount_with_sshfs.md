@@ -24,3 +24,7 @@
     ```
     sshfs -o IdentityFile=~/.ssh/id_rsa <user>@<server>:/path/to/your/folder /mnt/<mount_dir>
     ```
+## Unmount
+```
+fusermount -u /mnt/<mount_dir>
+```
