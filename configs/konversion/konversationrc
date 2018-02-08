@@ -1,0 +1,193 @@
+[$Version]
+update_info=konversation.upd:1.1-rememberline,konversation.upd:1.1-markerlines,konversation.upd:0.20-customfonts,konversation.upd:0.20-quickbuttons,konversation.upd:0.19-notifylists,konversation.upd:0.19-appearance,konversation.upd:0.19-browser,konversation.upd:0.19-flags,konversation.upd:0.19-highlightcolors,konversation.upd:0.19-osdcolors,konversation.upd:0.19-sortorder,konversation.upd:0.19-colors,konversation.upd:0.19-generaloptions,konversation.upd:0.19-cleanup-themes,konversation.upd:0.19-cleanup-notifylist,konversation.upd:0.19-cleanup-dcc,konversation.upd:0.19-cleanup-colors,konversation.upd:0.19-cleanup-hilightlist,konversation.upd:0.19-cleanup-notificationmessages,konversation.upd:0.19-cleanup-ledcolors,konversation.upd:0.19-cleanup-kmditaskbar,konversation.upd:0.19-channelsplitter
+
+[Aliases]
+AliasList=tinyurl /exec tinyurl,fortune /exec fortune,gauge /exec gauge,media /exec media,audio /exec media audio,video /exec media video,mail /exec mail,sysinfo /exec sysinfo,uptime /exec uptime,bug /exec bug,cmd /exec cmd,sayclip /exec sayclip
+
+[Appearance]
+ChannelSplitterSizes=652,176
+ListFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+ShowDate=true
+TabFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+TextFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+TopicSplitterSizes=27,459
+
+[Autoreplace List]
+Direction0=o
+Direction1=o
+Direction2=o
+Pattern0=\\[\\[([^\\s]+)\\]\\]#
+Pattern1=(BUG:|bug:)([0-9]+)#
+Pattern2=([Dd][Bb][Uu][Gg]:)(\\w+)#
+Regex0=1
+Regex1=1
+Regex2=1
+Replace0=http://en.wikipedia.org/wiki/Special:Search?go=Go&search=%1#
+Replace1=https://bugs.kde.org/show_bug.cgi?id=%2#
+Replace2=http://bugs.debian.org/%2#
+
+[BanList ViewSettings]
+ColumnSortDescending=false
+ColumnSorted=0
+ColumnWidths=100,100,304
+
+[Button List]
+Button0=Op,/OP %u%n
+Button1=DeOp,/DEOP %u%n
+Button2=WhoIs,/WHOIS %s,%%u%n
+Button3=Version,/CTCP %s,%%u VERSION%n
+Button4=Kick,/KICK %u%n
+Button5=Ban,/BAN %u%n
+Button6=Part,/PART %c Leaving...%n
+Button7=Quit,/QUIT Leaving...%n
+
+[Channel 0]
+Name=#kubuntu
+Password=
+
+[Channel 1]
+EnableNotifications=true
+Name=#kubuntu
+Password=
+
+[Channel 2]
+Name=#ldat
+Password=
+
+[Channel 3]
+Name=#yow
+Password=
+
+[Channel 4]
+Name=#ovp
+Password=
+
+[Channel 5]
+EnableNotifications=true
+Name=#ldat
+Password=
+
+[Channel 6]
+EnableNotifications=true
+Name=#yow
+Password=
+
+[Channel 7]
+EnableNotifications=true
+Name=#ovp
+Password=
+
+[ChannelOptionsDialog]
+Size=550,419
+SplitterSizes=220,78
+
+[DCC Settings]
+IPv4FallbackIface=0
+
+[General Options]
+ScrollbackMax=0
+ShowRealNames=true
+ShowTrayIcon=true
+TrayNotify=true
+
+[Identity 0]
+AuthType=nickserv
+AutomaticAway=false
+AutomaticUnaway=false
+AwayInactivity=10
+AwayMessage=
+AwayNick=
+AwayReason=Gone away for now
+Bot=nickserv
+Codec=UTF-8
+Ident=ywang
+InsertRememberLineOnAway=false
+KickReason=User terminated!
+Name=Default Identity
+Nicknames=ywang,ywang_,ywang__
+NickservCommand=identify
+PartReason=Konversation terminated!
+Password=
+PemClientCertFile=
+PreShellCommand=
+QuitReason=Konversation terminated!
+Realname=Yang Wang
+ReturnMessage=
+SaslAccount=
+ShowAwayMessage=false
+
+[KFileDialog Settings]
+Height 1050=513
+Recent Files[$e]=KDE-Im-Message-In.ogg,/usr/share/sounds/KDE-Im-Contact-In.ogg,/usr/share/sounds/KDE-Sys-Log-In.ogg,/usr/share/sounds/KDE-Sys-App-Message.ogg,/usr/share/sounds/KDE-Im-Sms.ogg,/usr/share/sounds/KDE-Im-Cant-Connect.ogg,/usr/share/sounds/KDE-Im-Irc-Event.ogg,/usr/share/sounds/KDE-Im-Message-In.ogg
+Recent URLs[$e]=/usr/share/sounds/,/usr/share/sounds/gnome/
+Width 1680=816
+
+[MainWindow]
+Height 1050=613
+State=AAAA/wAAAAD9AAAAAAAAA0IAAAIpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1680=834
+
+[Notification Messages]
+ChannelListNoServerSelected=1
+ChannelListWarning=1
+ClearLogfileQuestion=1
+CloseQueryAfterIgnore=1
+HideMenuBarWarning=1
+HideOnCloseInfo=0
+IgnoreNick=1
+Invitation=0
+QuitChannelTab=1
+QuitDCCChatTab=1
+QuitQueryTab=0
+QuitServerTab=1
+QuitWithActiveDccTransfers=1
+ReconnectWithDifferentServer=1
+ReuseExistingConnection=1
+SaveLogfileNote=1
+UnignoreNick=1
+WarnEncodingConflict=1
+systemtrayquitKonversation=1
+
+[OSD]
+OSDDrawShadow=true
+OSDFont=Sans Serif,9,-1,5,50,0,0,0,0,0
+OffsetX=15
+OffsetY=15
+ShowChannel=true
+
+[Server 0]
+Password=
+Port=8001
+SSLEnabled=false
+Server=irc.ubuntu.com
+
+[Server 1]
+Password=
+Port=6667
+SSLEnabled=false
+Server=irc.wrs.com
+
+[ServerGroup 0]
+AutoConnect=false
+AutoJoinChannels=Channel 0
+ChannelHistory=Channel 1
+ConnectCommands=
+EnableNotifications=true
+Expanded=false
+Identity=Default Identity
+Name=Ubuntu IRC
+NotifyList=
+ServerList=Server 0
+
+[ServerGroup 1]
+AutoConnect=false
+AutoJoinChannels=Channel 2,Channel 3,Channel 4
+ChannelHistory=Channel 5,Channel 6,Channel 7
+ConnectCommands=
+EnableNotifications=false
+Expanded=false
+Identity=Default Identity
+Name=WindRiver IRC
+NotifyList=
+ServerList=Server 1
