@@ -19,3 +19,4 @@
 *  [Announce](https://lists.linaro.org/pipermail/lava-announce/)
 *  [Dashboard](https://projects.linaro.org/secure/Dashboard.jspa?selectPageId=11603)
 *  [Documents](https://validation.linaro.org/static/docs/v2/)
+*  [LAVA-1245: An upcoming official lava-dispatcher docker image](https://projects.linaro.org/browse/LAVA-1245)
