@@ -13,6 +13,7 @@
 ## Online Docs
 *  [Docker](https://docs.docker.com/)
 *  [Groovy](http://grails.asia/groovy-string-tutorial)
+*  [Manipulating Strings](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
 
 ## LAVA
 *  [Home page](https://validation.linaro.org/)
