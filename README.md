@@ -13,7 +13,10 @@
 ## Online Docs
 *  [Docker](https://docs.docker.com/)
 *  [Groovy](http://grails.asia/groovy-string-tutorial)
+
+## Interesting Knowledge
 *  [Manipulating Strings](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
+*  [How to build a simple MongoDB cluster for data replication using docker-compose](https://www.youtube.com/watch?v=vVTExFrUxE4)
 
 ## LAVA
 *  [Home page](https://validation.linaro.org/)
