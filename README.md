@@ -15,8 +15,13 @@
 *  [Docker](https://docs.docker.com/)
 *  [Groovy](http://grails.asia/groovy-string-tutorial)
 
+## Interesting Knowledge
+*  [Manipulating Strings](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
+*  [How to build a simple MongoDB cluster for data replication using docker-compose](https://www.youtube.com/watch?v=vVTExFrUxE4)
+
 ## LAVA
 *  [Home page](https://validation.linaro.org/)
 *  [Announce](https://lists.linaro.org/pipermail/lava-announce/)
 *  [Dashboard](https://projects.linaro.org/secure/Dashboard.jspa?selectPageId=11603)
 *  [Documents](https://validation.linaro.org/static/docs/v2/)
+*  [LAVA-1245: An upcoming official lava-dispatcher docker image](https://projects.linaro.org/browse/LAVA-1245)
