@@ -18,7 +18,7 @@
  2. added user_allow_other to /etc/fuse.conf
  3. not use sudo to run sshfs
  4. not use both the options default_permissions and allow_other
- 5. sudo chown <user>:<group> /mnt/<mount_dir>
+ 5. sudo chown \<user\>:\<group\> /mnt/<mount_dir>
 
  *  command line looks like:
     ```
