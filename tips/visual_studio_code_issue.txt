@@ -1,3 +1,12 @@
+How to install vscode in Ubuntu 18.04
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
+Steps:
+1. sudo apt update
+2. sudo apt install software-properties-common apt-transport-https wget
+3. wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+4. sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+5. sudo apt install code
+
 Issue:
 VS Code not working on Ubuntu when connected using XRDP
 
@@ -18,3 +27,11 @@ Here are the steps for the workaround:
 1. Copy both files to "/usr/share/code"
 2. In Windows, open Remote Desktop connection, assign Linux IP-Address.
 3. In Linux Remote session, click on the Applications menu, go to Development, then Visual Studio Code and the application open.
+
+Cleaner way:
+# make a copy of the relevant library
+mkdir ~/lib
+cp /usr/lib/x86_64-linux-gnu/libxcb.so.1 ~/lib
+sed -i 's/BIG-REQUESTS/_IG-REQUESTS/' ~/lib/libxcb.so.1
+# set the dynamic loader path to put your library first before executing VS Code
+LD_LIBRARY_PATH=$HOME/lib code
