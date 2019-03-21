@@ -4,3 +4,12 @@
 ```
 sudo mount -t cifs -o username={username},password={password},uid=$(id -u),gid=$(id -g) //192.168.2.13/goflex\ home\ public/ /mnt/goflex/
 ```
+
+## Start elasticsearch dockers
+- When starting ES dockers, you may see this error which blocks all elasticsearch docker starts:
+   > ERROR: [1] bootstrap checks failed
+
+- Run the following command before running 'docker-compose up' will fix above issue:
+```
+sysctl -w vm.max_map_count=262144
+```
