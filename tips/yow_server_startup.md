@@ -13,3 +13,12 @@ sudo mount -t cifs -o username={username},password={password},uid=$(id -u),gid=$
 ```
 sysctl -w vm.max_map_count=262144
 ```
+
+## Fail to start winxp VM from virtualbox
+- In this case, use the *headless* mode to start VMs, it doesn't show UI in VNC session, but can still log onto it through anydesk or teamviewer
+
+## Change workqueue in RAM disk to 777
+```
+chmod 777 /mnt/ramdisk/workqueue
+```
+This will allow winxp VMs put their posts into Z:\
