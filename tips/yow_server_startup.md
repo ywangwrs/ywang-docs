@@ -22,3 +22,7 @@ sysctl -w vm.max_map_count=262144
 chmod 777 /mnt/ramdisk/workqueue
 ```
 This will allow winxp VMs put their posts into Z:\
+
+## Reinstall matt in tools docker
+
+## Restart mongo-express docker
