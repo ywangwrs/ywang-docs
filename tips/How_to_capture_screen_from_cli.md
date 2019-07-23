@@ -4,6 +4,7 @@
 
  - https://developers.google.com/web/updates/2017/04/headless-chrome
  - https://github.com/alpeware/chrome-headless-trunk
+ - https://tecadmin.net/capture-screenshot-google-chrome-headless/
 
 ## Steps to Capture Screenshot of a Website
 
