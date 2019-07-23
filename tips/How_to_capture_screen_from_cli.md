@@ -48,7 +48,7 @@
  - right 14px
  - left 3px
  
-then you could do it with (widthxheight+left+top / wxh+l+t format):
+4. then you could do it with (widthxheight+left+top / wxh+l+t format):
 
     ```bash
      $ convert image.jpg -crop 703x470+3+5 output.jpg 
