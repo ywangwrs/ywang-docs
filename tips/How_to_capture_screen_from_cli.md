@@ -2,8 +2,8 @@
 
 ## Reference
 
-https://developers.google.com/web/updates/2017/04/headless-chrome
-https://github.com/alpeware/chrome-headless-trunk
+ - https://developers.google.com/web/updates/2017/04/headless-chrome
+ - https://github.com/alpeware/chrome-headless-trunk
 
 ## Steps to Capture Screenshot of a Website
 
