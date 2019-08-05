@@ -86,4 +86,4 @@ ogr2ogr -f "PostgreSQL" PG:"host=172.30.0.2 user=user dbname=gdal password=12345
 ```
 
 ## Use pgadmin4 to get the data
-https://user-images.githubusercontent.com/15996047/62485258-3e4b4180-b78a-11e9-87be-ddcc256936c2.jpeg
+<img src='https://user-images.githubusercontent.com/15996047/62485258-3e4b4180-b78a-11e9-87be-ddcc256936c2.jpeg'/>
