@@ -59,6 +59,10 @@ networks:
   psqlnet:
     driver: bridge
 ```
+ - Start the dockers
+```
+docker-compose up
+```
 
 ## Get info of the datafile
 - Link: https://catalogue.data.gov.bc.ca/dataset/parcelmap-bc-parcel-fabric/resource/6dd5db5c-c080-474c-9a8d-631a42e5b1d1
@@ -66,11 +70,17 @@ networks:
 - Commands to get info of the file
 ```
 wget https://pub.data.gov.bc.ca/datasets/4cf233c2-f020-4f7a-9b87-1923252fbc24/pmbc_parcel_fabric_poly_svw.zip
+unzip pmbc_parcel_fabric_poly_svw.zip
 originfo pmbc_parcel_fabric_poly_svw.gdb
 ```
 
 ## Read the data out and put it into database
+ - Get postgresql docker container's ip (172.30.0.2) with the following command
+```
+docker network inspect gdal_psqlnet
+```
 
+ - Start copy data to PostgreSQL database
 ```
 ogr2ogr -f "PostgreSQL" PG:"host=172.30.0.2 user=user dbname=gdal password=123456" pmbc_parcel_fabric_poly_svw.gdb pmbc_parcel_fabric_poly_svw
 ```
