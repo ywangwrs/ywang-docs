@@ -84,3 +84,6 @@ docker network inspect gdal_psqlnet
 ```
 ogr2ogr -f "PostgreSQL" PG:"host=172.30.0.2 user=user dbname=gdal password=123456" pmbc_parcel_fabric_poly_svw.gdb pmbc_parcel_fabric_poly_svw
 ```
+
+## Use pgadmin4 to get the data
+https://user-images.githubusercontent.com/15996047/62485258-3e4b4180-b78a-11e9-87be-ddcc256936c2.jpeg
