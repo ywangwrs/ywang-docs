@@ -72,7 +72,7 @@ docker-compose up
 ```
 wget https://pub.data.gov.bc.ca/datasets/4cf233c2-f020-4f7a-9b87-1923252fbc24/pmbc_parcel_fabric_poly_svw.zip
 unzip pmbc_parcel_fabric_poly_svw.zip
-originfo pmbc_parcel_fabric_poly_svw.gdb
+ogrinfo pmbc_parcel_fabric_poly_svw.gdb
 ```
 
 ## Read the data out and put it into database
