@@ -4,7 +4,9 @@
 Read it out and put it into a SQL database
 
 ## Reference
+ - <a href='https://vallandingham.me/shapefile_to_geojson.html#converting-to-geojson-using-gdal'>Converting to GeoJSON using GDAL</a>
  - <a href='https://morphocode.com/using-ogr2ogr-convert-data-formats-geojson-postgis-esri-geodatabase-shapefiles/'>Using ogr2ogr to convert data between GeoJSON, PostGIS and Esri Shapefile</a>
+ - <a href='https://www.statsilk.com/maps/convert-esri-shapefile-map-geojson-format'>Convert ESRI Shapefile Map to GeoJSON format</a>
  - https://github.com/webmapp/gdal-docker/tree/master/examples
  - https://gis.stackexchange.com/questions/184013/read-a-table-from-an-esri-file-geodatabase-gdb-using-r
  - http://www.postgresqltutorial.com/postgresql-create-table/
