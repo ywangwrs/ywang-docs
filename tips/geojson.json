@@ -1,44 +1,28 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [102.0, 0.5]
-      },
-      "properties": {
-        "prop0": "value0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
-        ]
-      },
-      "properties": {
-        "prop0": "value0",
-        "prop1": 0.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [100.0, 0.0], [101.0, 0.0], [101.0, 1.0],
-            [100.0, 1.0], [100.0, 0.0]
-          ]
-        ]
-      },
-      "properties": {
-        "prop0": "value0",
-        "prop1": { "this": "that" }
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"name": "polygon6862",
+			"geoFenceType": "Event",
+			"id": 47636608
+		},
+		"geometry": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[-123.2411763, 49.3459569],
+					[-123.2409872, 49.3457147],
+					[-123.2406908, 49.3456172],
+					[-123.24055, 49.3457388],
+					[-123.2408785, 49.3460649],
+					[-123.2411763, 49.3459569]
+				]
+			]
+		},
+		"flights": [{
+			"start_at": "2019-07-21T03:45:00-05:00",
+			"end_at": "2019-07-31T00:00:00-05:00"
+		}]
+	}]
 }
