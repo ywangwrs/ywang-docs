@@ -8,6 +8,7 @@
         "coordinates": [102.0, 0.5]
       },
       "properties": {
+        "name": "name1",
         "prop0": "value0"
       }
     },
@@ -20,6 +21,7 @@
         ]
       },
       "properties": {
+        "name": "name2",
         "prop0": "value0",
         "prop1": 0.0
       }
@@ -36,6 +38,7 @@
         ]
       },
       "properties": {
+        "name": "name3",
         "prop0": "value0",
         "prop1": { "this": "that" }
       }
