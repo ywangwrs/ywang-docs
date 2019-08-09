@@ -90,3 +90,13 @@ ogr2ogr -f "PostgreSQL" PG:"host=172.30.0.2 user=user dbname=gdal password=12345
 
 ## Use pgadmin4 to get the data
 <img src='https://user-images.githubusercontent.com/15996047/62485258-3e4b4180-b78a-11e9-87be-ddcc256936c2.jpeg'/>
+
+## Convert shapefile to geoJSON
+Common command:
+```
+ogr2ogr -f geoJSON <output-json-file> <input-shp-file>
+```
+But if the original shape file contains UTM coordinates instead of latitude and longitude, use the following command to convert shape file to geoJSON and convert UTM coordinates to latitude and longitude at the same time:
+```
+ogr2ogr -f geoJSON <output-json-file> <input-shp-file> -t_srs EPSG:4326
+```
