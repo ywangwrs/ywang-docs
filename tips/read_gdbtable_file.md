@@ -100,3 +100,11 @@ But if the original shape file contains UTM coordinates instead of latitude and 
 ```
 ogr2ogr -f geoJSON <output-json-file> <input-shp-file> -t_srs EPSG:4326
 ```
+
+## Convert geoJSON file to the format simpli.fi can identify
+Use vim to edit the json file and:
+```
+:%s/", "STREETNAME": "/ /g
+:%s/CIVIC_NO/name/g
+:%s/"SITE_ID"/"geoFenceType": "Event", "SITE_ID"/g
+```
