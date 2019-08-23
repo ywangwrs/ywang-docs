@@ -10,7 +10,7 @@ sudo mount -t cifs -o username={username},password={password},uid=$(id -u),gid=$
 
 ## Change workqueue in RAM disk to 777
 ```
-chmod 777 /mnt/ramdisk/workqueue
+sudo chmod 777 /mnt/ramdisk/workqueue
 ```
 This will allow winxp VMs put their posts into Z:\
 
