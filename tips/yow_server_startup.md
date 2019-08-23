@@ -23,6 +23,9 @@ chmod 777 /mnt/ramdisk/workqueue
 ```
 This will allow winxp VMs put their posts into Z:\
 
-## Reinstall matt in tools docker
+## After tools docker started, run this command inside the docker to avoid the "the input device is not a TTY" issue
+```
+while true; do /tools/report_forums.sh && sleep 60; done
+```
 
 ## Restart mongo-express docker
