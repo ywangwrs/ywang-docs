@@ -1,0 +1,35 @@
+# About Me
+set from = "your.name@themailserver.com"
+set realname = "Your Name"
+
+# My mailboxes
+set imap_user = "your.name@themailserver.com"
+source "gpg --passphrase <GPG key> -d ~/.mutt/mypasswd.gpg |"
+set folder = "imaps://themailserver.com:993"
+set spoolfile = "+INBOX"
+set ssl_starttls=no
+set ssl_force_tls=yes
+
+# My credentials
+set smtp_url = "smtp://$imap_user@themailserver.com:994/"
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+# GnuPG bootstrap
+# source ~/.mutt/gpg.rc
+
+# Macro commands
+bind index "^" imap-fetch-mail
+#set 'index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"'
+set index_format="%4C %Z %X %{%Y%m%d} %-15.15F %-15.15t %?M?(#%03M)&(%4c)? %?y?(%.20Y) ?%s"
+source ~/.mutt/colors
