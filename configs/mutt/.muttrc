@@ -7,6 +7,8 @@ set imap_user = "your.name@themailserver.com"
 source "gpg --passphrase <GPG key> -d ~/.mutt/mypasswd.gpg |"
 set folder = "imaps://themailserver.com:993"
 set spoolfile = "+INBOX"
+set record = "+INBOX/Sent"
+set postponed = "+INBOX/Drafts"
 set ssl_starttls=no
 set ssl_force_tls=yes
 
