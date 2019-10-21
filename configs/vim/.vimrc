@@ -47,6 +47,10 @@ colorscheme murphy
 "highlight OverLength guibg=#d75f5f
 "match OverLength /\%81v.\+/
 
+" Show trailing whitespace:                                                                                                                                                                                        
+:highlight ExtraWhitespace ctermbg=red guibg=red                                                                                                                                                                   
+match ExtraWhitespace /\s\+$/ 
+
 " set the font
 set gfn=Monospace\ 12
 
