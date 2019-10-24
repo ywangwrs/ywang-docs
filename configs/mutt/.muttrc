@@ -35,3 +35,7 @@ bind index "^" imap-fetch-mail
 #set 'index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"'
 set index_format="%4C %Z %X %{%Y%m%d} %-15.15F %-15.15t %?M?(#%03M)&(%4c)? %?y?(%.20Y) ?%s"
 source ~/.mutt/colors
+
+# Read HTML email
+auto_view text/html                                      # view html automatically
+alternative_order text/plain text/enriched text/html     # save html for last
