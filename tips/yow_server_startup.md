@@ -19,4 +19,14 @@ This will allow winxp VMs put their posts into Z:\
 while true; do /tools/report_forums.sh && sleep 60; done
 ```
 
-## Restart mongo-express docker
+## Watch workqueue folder
+cd /mnt/ramdisk/workqueue
+while true; \
+    do time=`date '+%Y-%m-%d %H:%M:%S'`; \
+    if [ `date +%S` == 30 ] || [ `date +%S` == 31 ]; then 
+        ls; \
+    fi; \
+    num=`ls -l | grep ^- | wc -l`; \
+    echo -e "$time > \033[1;33m$num\033[0m"; \
+    sleep 2; \
+done
