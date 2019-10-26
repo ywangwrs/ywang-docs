@@ -19,7 +19,8 @@ This will allow winxp VMs put their posts into Z:\
 while true; do /tools/report_forums.sh && sleep 60; done
 ```
 
-## Watch workqueue folder
+## Watch workqueue folde
+```
 cd /mnt/ramdisk/workqueue
 while true; \
     do time=`date '+%Y-%m-%d %H:%M:%S'`; \
@@ -30,3 +31,4 @@ while true; \
     echo -e "$time > \033[1;33m$num\033[0m"; \
     sleep 2; \
 done
+```
