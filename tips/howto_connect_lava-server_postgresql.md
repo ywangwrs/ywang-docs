@@ -4,6 +4,14 @@
   * https://hub.docker.com/r/dpage/pgadmin4
   * https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 
+## Command to start pgAdmin 4 docker
+```
+docker run -p 5050:80 --rm --name pgadmin4 --hostname pgadmin4 --network lava-ci_lava-net \
+    -e 'PGADMIN_DEFAULT_EMAIL=user@email.com' \
+    -e 'PGADMIN_DEFAULT_PASSWORD=SuperStrongPassword' \
+    -d dpage/pgadmin4
+```
+
 ## docker-compose file
 ```
   pgadmin4:
@@ -19,7 +27,6 @@
       - PGADMIN_DEFAULT_PASSWORD=SuperStrongPassword
     networks:
       - lava-net
-
 ```
 
 ## Settings in LAVA docker to enable access postgresql
