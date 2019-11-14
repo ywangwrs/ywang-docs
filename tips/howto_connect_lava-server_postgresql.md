@@ -35,11 +35,12 @@ docker run -p 5050:80 --rm --name pgadmin4 --hostname pgadmin4 --network lava-ci
   * Dockerfile
   ```
   # Enable access the postgresql database from PgAdmin4 docker
-RUN cat /etc/postgresql/9.6/main/postgresql.conf | grep listen_addresses \
- && sed -i "s/#listen_addresses = 'localhost'/listen_addresses = '*'         /g" /etc/postgresql/9.6/main/postgresql.conf \
- && cat /etc/postgresql/9.6/main/postgresql.conf | grep listen_addresses \
- && echo "host    all             all             192.168.0.1/16          trust" >> /etc/postgresql/9.6/main/pg_hba.conf \
- && tail -10 /etc/postgresql/9.6/main/pg_hba.conf
+RUN cat /etc/postgresql/11/main/postgresql.conf | grep listen_addresses \
+ && sed -i "s/#listen_addresses = 'localhost'/listen_addresses = '*'         /g" /etc/postgresql/11/main/postgresql.conf \
+ && cat /etc/postgresql/11/main/postgresql.conf | grep listen_addresses \
+ && echo "host    all             all             192.168.0.1/16          trust" >> /etc/postgresql/11/main/pg_hba.conf \
+ && echo "host    all             all             172.18.0.1/8          trust" >> /etc/postgresql/11/main/pg_hba.conf \
+ && tail -10 /etc/postgresql/11/main/pg_hba.conf
   ```
 
 ## Access LAVA Server's PostgreSQL database from pgAdmin 4
