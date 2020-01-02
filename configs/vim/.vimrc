@@ -42,14 +42,14 @@ set directory=.,~/.vim/backup,/tmp
 "set directory=~/.vim/swp//
 
 " set the template style
-colorscheme murphy
+colorscheme dank-neon
 
 "highlight OverLength guibg=#d75f5f
 "match OverLength /\%81v.\+/
 
-" Show trailing whitespace:                                                                                                                                                                                        
-:highlight ExtraWhitespace ctermbg=red guibg=red                                                                                                                                                                   
-match ExtraWhitespace /\s\+$/ 
+" Show trailing whitespace:
+:highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 
 " set the font
 set gfn=Monospace\ 12
@@ -61,7 +61,7 @@ set hlsearch
 set incsearch
 
 " show line numbers
-set number
+"set number
 
 " set tabbing
 set tabstop=8
