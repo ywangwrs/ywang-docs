@@ -24,7 +24,7 @@ mpg321 <mp3 file>
 
 ## Setup crontab to play mp3 file automatically
 ### Reference
-https://askubuntu.com/questions/530048/ubuntu-14-04-and-playing-songs-from-cron
+  * https://askubuntu.com/questions/530048/ubuntu-14-04-and-playing-songs-from-cron
 
 ### Command to check crontab log
 ```bash
@@ -40,8 +40,8 @@ sudo  usermod -aG audio <current user>
 ```
 ### crontab setting
 ```bash
-55 04 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
+55 05 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
 55 11 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
-55 16 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
-55 22 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
+55 17 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
+55 23 * * * export XDG_RUNTIME_DIR=/run/user/1000 && /usr/bin/mpg321 ~/Music/fzn15.mp3
 ```
