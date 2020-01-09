@@ -1,6 +1,6 @@
 # How to automatically play sound in Mumble
 
-## Install mumble from Ubuntu
+## Install mumble from Ubuntu 18.04
 ```bash
 sudo apt install mumble
 ```
@@ -11,6 +11,13 @@ sudo apt install mumble
   * https://www.youtube.com/watch?v=sZvwbX5YNWs
   
 ### Setting
+  * Run these commands to setup the 'loopback' audio virtual device
+  ```bash
+  snap install pulseaudio
+  pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
+  ```
+  * And then the sound setting in system looks like:
+  * Inside mumble make the settings like the following
 
 ## Play mp3 file from command line maunally
 ### Install mpg321
