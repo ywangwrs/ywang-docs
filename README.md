@@ -19,6 +19,7 @@
 ## Interesting Knowledge
 *  [Manipulating Strings](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
 *  [How to build a simple MongoDB cluster for data replication using docker-compose](https://www.youtube.com/watch?v=vVTExFrUxE4)
+*  [Using an ssh-agent, or how to type your ssh password once, safely](http://rabexc.org/posts/using-ssh-agent)
 
 ## LAVA
 *  [Home page](https://validation.linaro.org/)
