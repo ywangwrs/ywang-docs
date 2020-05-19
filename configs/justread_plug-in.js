@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-body { font-family: Roboto, BlinkMacSystemFont, sans-serif; background-color: rgb(5, 0, 0); line-height: 1.6; font-size: 30px; color: rgb(0, 255, 74); text-rendering: optimizelegibility; }
+body { font-family: "Microsoft YaHei", sans-serif; background-color: rgb(5, 0, 0); line-height: 1.6; font-size: 30px; color: rgb(0, 255, 74); text-rendering: optimizelegibility; }
 h1, h2 { font-family: "Source Sans Pro", sans-serif; font-weight: 700; }
 h1 { font-size: 1.875em; line-height: 1.125; }
 h2 { font-size: 1.45em; line-height: 1.2625em; }
