@@ -4,7 +4,7 @@
   - https://www.pinyinjoe.com/linux/ubuntu-18-gnome-chinese-setup.htm
 
 ## Installation
-  - sudo apt-get install ibus-sunpinyin
+  - sudo apt-get install ibus-pinyin
   - sudo ibus restart
 
 ## Snapshots
