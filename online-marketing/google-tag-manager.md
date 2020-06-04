@@ -13,3 +13,6 @@
 ## How to track clicking audio elements on page
   - [
 How to Track HTML5 Audio Player with Google Tag Manager and GA](https://www.analyticsmania.com/post/track-html5-audio-player-with-google-tag-manager/)
+
+## Share Facebook Ads Pixel between two Ad accounts
+  - [How to Share Facebook Ads Pixel (2019) Share with Another Account](https://www.youtube.com/watch?v=120YmKXOIuM)
