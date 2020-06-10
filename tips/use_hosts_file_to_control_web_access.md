@@ -1,5 +1,8 @@
 # How to use /etc/hosts to control website accessibility
 
+## Reference
+ - https://www.youtube.com/watch?v=DMSuUpYu0c4
+
 ## Redirect a website access
  - For example, redirect test.hopto.org to an internal IP 192.168.x.x
  ```
