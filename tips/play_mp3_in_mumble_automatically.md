@@ -22,7 +22,7 @@ sudo apt install mumble
   * And then the sound setting in system looks like:
   <img src='https://user-images.githubusercontent.com/15996047/72033640-e5179a80-3260-11ea-93b8-98221052adb4.png'/>
   
-  * Inside mumble make the settings like the following
+  * Inside mumble make the settings like the following (**Quality should be better in 60 kb/s**)
   <img src='https://user-images.githubusercontent.com/15996047/72033713-14c6a280-3261-11ea-9314-5865a44e8e31.png'/>
   <img src='https://user-images.githubusercontent.com/15996047/72033714-14c6a280-3261-11ea-87f7-6992a212f630.png'/>
   <img src='https://user-images.githubusercontent.com/15996047/72033715-14c6a280-3261-11ea-9b51-802ff8dbdc9e.png'/>
