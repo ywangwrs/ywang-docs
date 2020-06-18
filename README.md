@@ -29,5 +29,8 @@
 *  [Documents](https://validation.linaro.org/static/docs/v2/)
 *  [LAVA-1245: An upcoming official lava-dispatcher docker image](https://projects.linaro.org/browse/LAVA-1245)
 
+## Security
+*  [How Tailscale works - The data plane: WireGuard®](https://tailscale.com/blog/how-tailscale-works/)
+
 ## Others
 *  [Hill Cam](https://www.tpsgc-pwgsc.gc.ca/citeparlementaire-parliamentaryprecinct/camera-eng.html)
