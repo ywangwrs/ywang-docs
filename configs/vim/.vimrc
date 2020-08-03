@@ -135,3 +135,6 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal! g'\"" | endif
 endif
+
+" Enable copy 1000 lines
+set viminfo='100,<1000,s100,h
