@@ -4,6 +4,10 @@
 ```
 sudo mount -t cifs -o username={username},password={password},uid=$(id -u),gid=$(id -g) //192.168.2.13/goflex\ home\ public/ /mnt/goflex/
 ```
+or
+```
+sudo mount -t cifs //192.168.2.1/bak1 /mnt/backup/ -o vers=1.0,username=WORKGROUP\ywang,password=
+```
 
 ## Fail to start winxp VM from virtualbox
 - In this case, use the *headless* mode to start VMs, it doesn't show UI in VNC session, but can still log onto it through anydesk or teamviewer
