@@ -2,7 +2,7 @@
 
 ## Mount network drives
 ```
-sudo mount -t cifs -o username={username},password={password},uid=$(id -u),gid=$(id -g) //192.168.2.13/goflex\ home\ public/ /mnt/goflex/
+sudo mount -t cifs -o username={username},password={password},iocharset=utf8,file_mode=0777,dir_mode=0777,vers=1.0 '//192.168.2.42/GoFlex Home Public' /mnt/goflex/
 ```
 or
 ```
