@@ -33,3 +33,19 @@ CipherString = DEFAULT@SECLEVEL=
  ```
  OPENSSL_CONF=/home/ywang/.config/mumble/openssl.cnf /usr/bin/mumble
  ```
+
+## How to change the command of a favorite icon in Ubuntu
+* Create a bash file /home/ywang/.config/mumble/start_mumble.sh with this content
+```
+#!/bin/bash
+
+OPENSSL_CONF=/home/ywang/.config/mumble/openssl.cnf /usr/bin/mumble
+```
+* Change content of this file:
+```
+sudo vi /usr/share/applications/mumble.desktop
+```
+Change the *Exec=* line to:
+```
+Exec=/home/ywang/.config/mumble/start_mumble.sh
+```
