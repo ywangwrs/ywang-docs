@@ -9,7 +9,7 @@
  * http://httpd.apache.org/docs/2.4/mod/core.html#allowoverride
 
 ## Idea
- * Based on this [doc|https://help.dreamhost.com/hc/en-us/articles/216363167-How-do-I-deny-access-to-my-site-with-an-htaccess-file-], without restarting apache server, .htaccess file in apache2 server can help to:
+ * Based on this [doc](https://help.dreamhost.com/hc/en-us/articles/216363167-How-do-I-deny-access-to-my-site-with-an-htaccess-file-), without restarting apache server, .htaccess file in apache2 server can help to:
    * Deny/Allow access to specific files and folders
    * Deny/Allow access during a specific hour of the day
    * Deny/Allow access from specific IP addresses and domain
