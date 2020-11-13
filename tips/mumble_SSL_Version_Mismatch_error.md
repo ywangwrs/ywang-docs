@@ -26,7 +26,7 @@ ssl_conf = ssl_sect
 system_default = system_default_sect
 
 [system_default_sect]
-CipherString = DEFAULT@SECLEVEL=
+CipherString = DEFAULT@SECLEVEL=1
  ```
  
  * Command
