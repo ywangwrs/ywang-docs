@@ -138,3 +138,7 @@ endif
 
 " Enable copy 1000 lines
 set viminfo='100,<1000,s100,h
+
+if &diff
+  colorscheme evening
+endif
