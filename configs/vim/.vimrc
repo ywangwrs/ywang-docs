@@ -140,5 +140,5 @@ endif
 set viminfo='100,<1000,s100,h
 
 if &diff
-  colorscheme evening
+  colorscheme apprentice
 endif
