@@ -142,3 +142,7 @@ set viminfo='100,<1000,s100,h
 if &diff
   colorscheme apprentice
 endif
+
+" Show tabs as →, Empty space as '.' in red
+set list
+set listchars=tab:→\ ,trail:·,nbsp:⎵
