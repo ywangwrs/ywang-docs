@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-body { font-family: "Microsoft YaHei", sans-serif; background-color: rgb(5, 0, 0); line-height: 1.6; font-size: 30px; color: rgb(0, 255, 74); text-rendering: optimizelegibility; }
+body { font-family: "Microsoft YaHei", sans-serif; background-color: rgb(5, 0, 0); line-height: 1.3; font-size: 30px; color: rgb(0, 255, 74); text-rendering: optimizelegibility; }
 h1, h2 { font-family: "Source Sans Pro", sans-serif; font-weight: 700; }
 h1 { font-size: 1.875em; line-height: 1.125; }
 h2 { font-size: 1.45em; line-height: 1.2625em; }
@@ -27,4 +27,6 @@ aside, [class*="sidebar"], [id*="sidebar"] { max-width: 90%; margin: 0px auto; b
 [class*="emoji"], [class*="icon"] { width: 1em; }
 ::-webkit-scrollbar {width: 12px; }
 ::-webkit-scrollbar-track { box-shadow: rgba(0,0,0,0.3) 0px 0px 0px inset; border-radius: 3px; }
-::-webkit-scrollbar-thumb { border-radius: 3px; box-shadow: rgba(0,0,0,0.5) 0px 0px 6px inset; background: rgb(0,255,0);
+::-webkit-scrollbar-thumb { border-radius: 3px; box-shadow: rgba(0,0,0,0.5) 0px 0px 6px inset; background: rgb(0,255,0); }
+p { font-size: 30px !important; display: inline; }
+* { font-size: 30px !important; }
